@@ -1,5 +1,9 @@
 # pyHub
 Python GUI App that sets the environment for my first year labs
+
+![Screenshot_20230226_233431](https://user-images.githubusercontent.com/83332450/221438740-c1b11fb1-65a0-4720-ac20-97f9dbf11c6e.png)
+
+
 ### To run the app, you need:
 - python3 `sudo apt install python3`
 - pip `sudo apt install python3-pip`
@@ -12,4 +16,5 @@ Python GUI App that sets the environment for my first year labs
 - to run the app `python3 pyHub.py`
 
 ### To run the app every boot:
-- run `crontab -e`
+- `sudo cp -i path/to/pyHub.py /bin`
+- `echo 'python3 bin/pyHub.py &' >> ~/.bashrc`
