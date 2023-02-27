@@ -17,5 +17,11 @@ Python GUI App that sets the environment for my first year labs
 - to run the app `python3 pyHub.py`
 
 ### To run the app every boot:
-- `sudo cp -i path/to/pyHub.py /bin`
-- `echo 'python3 bin/pyHub.py &' >> ~/.bashrc`
+- `touch .config/autostart/pyHub.desktop`
+- `nano .config/autostart/pyHub.desktop`
+- and paste in the file:
+
+[Desktop Entry]\
+Type=Application\
+Name=pyHub\
+Exec=/usr/bin/python3 path/to/pyHub.py
