@@ -5,7 +5,6 @@ Python GUI App that sets the environment for my first year labs
 
 
 ### To run the app, you need:
-- Ubuntu-based distro https://itsfoss.com/best-ubuntu-based-linux-distros/
 - python3 `sudo apt install python3`
 - pip `sudo apt install python3-pip`
 - flet `pip install flet` (prerequisites for flet: https://flet.dev/docs/guides/python/getting-started/#linux)
