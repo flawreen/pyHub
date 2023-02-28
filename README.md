@@ -11,7 +11,7 @@ Python GUI App that sets the environment for my first year labs
 - JetBrains PyCharm, CLion, WebStorm, DataGrip https://www.jetbrains.com/products/
 
 ### Navigate to the folder where you installed the app, then:
-- run `chmod u+x first_run.sh`
+- run `chmod u+x run_first.sh`
 - `bash run_first.sh` or `./run_first.sh`
 - to run the app `python3 pyHub.py`
 
